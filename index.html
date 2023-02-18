@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>SungYeonWoo</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<span class="logo"><img src="images/entj.jpg" alt="" /></span>
+						<h1>Yeonwoo</h1>
+						<p>DevOps 엔지니어 지망하는 97년생입니다.<br />
+						한번은 사주를 본적이 있는데 평생 공부할 팔자라고 하더군요... <br />
+						개인 블로그 - <a href="https://yeonwoo97.tistory.com/">공부하기싫어</a></p>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#intro" class="active">자기소개</a></li>
+							<li><a href="#groom">구름 k8s 전문가 양성 과정</a></li>
+							<li><a href="#my-private-infra">CI/CD</a></li>
+							<li><a href="#ethereum">Cryptocurrency auto-trade</a></li>
+							<li><a href="#tamagochi">webgame-tamagochi</a></li>
+							<li><a href="#etc">etc...</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- 자기소개 -->
+							<section id="intro" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2>Hello World!</h2>
+										</header>
+										<p>18살때부터 적성검사 결과가 ENTJ인 저는 고등학교때부터
+											코딩에 관심을 가졌었습니다. 인덕대학교 정보통신공학과 학사를 졸업하면서
+											IT 전반에 대한 공부를 했었고, DevOps 를 지향해서 인프라 전반에 대한 공부를 했었습니다.
+											이후 경험을 쌓은 뒤 데이터쪽 석사 학위를 위해 공부하고 싶습니다.
+											스카이넷을 만들고싶거든요. AIOps 가 저만의 최종 목적입니다.
+										</p>
+										<ul class="actions">
+											<li><a href="introduction.html" class="button">Learn More</a></li>
+										</ul>
+									</div>
+									<span class="image"><img src="images/yw2.jpg" alt="" /></span>
+								</div>
+							</section>
+
+						<!-- 구름 국비지원 -->
+							<section id="groom" class="main special">
+								<header class="major">
+									<h2>구름 쿠버네티스 전문가 양성 과정(6기)</h2>
+								</header>
+								<ul class="features">
+									<div class="col-12-small"><span class="image fit"><img src="images/graduation ceremony.png" alt="" /></span></div>
+									<p>2022년 7월에 구름 K-Digital Traning 쿠버네티스 양성 과정(6기) 에 참가했었습니다.</br>
+										Ansible, docker 등을 다뤘었고, 마이크로서비스 운영을 위한 쿠버네티스에 대한 이해와 애플리케이션 운영 등을 배울 수 있었습니다.</br>
+										AWS 클라우드 안에서 k8s 클러스터를 직접 구성하여 운영했었고, EKS 로 마이그레이션 한 이후 그 강력한 기능이 기억에 남습니다. </br>
+										교육 과정 마무리엔 4주간의 짧은 프로젝트를 통해 k8s 운영시 일어날 수 있는 트러블슈팅을 해볼 수 있어서 좋았고, CI/CD 구축을 구현해 볼 수 있어 좋은 경험이 되었습니다.
+										마이크로서비스와 DevOps 워크로드 오케스트레이션 플랫폼인 쿠버네티스를 공부하는데 있어서 좋은 이정표가 된 교육과정이였습니다.</br>
+									</p>
+								</ul>
+								<footer class="major">
+									<ul class="actions special">
+										<li><a href="https://yeonwoo97.tistory.com/339" class="button">Learn More</a></li>
+									</ul>
+								</footer>
+							</section>
+
+						<!-- 개인 인프라 (blackpink website project) -->
+							<section id="my-private-infra" class="main special">
+								<header class="major">
+									<h2>개인 환경 인프라 CI/CD</h2>
+								</header>
+								<ul class="features">
+									<div class="col-12-small"><span class="image fit"><img src="images/blackpink-website.png" alt="" /></span></div>
+									<p>
+										저는 블랙핑크의 팬 페이지를 만들고싶었고, 위 사진은 그 설계도 입니다.</br>
+										매일매일 블랙핑크 맴버들의 인스타그램 사진을 크롤링해서 S3 버킷에 이미지를, MySQL 서버에 메타데이터를 저장한 후, 유저들이 그 사진을 다운로드 받을 수 있게끔 만들고 싶었습니다.</br>
+										개발환경에서 테스트 후 운영환경에서의 빠른 적용을 위해서 Jenkins server 용 인스턴스를 만들고 github repository 와 hub.docker repository 를 사용해 CI/CD Pipeline 을 구성해봤었습니다. </br>
+										하지만 동작하는 앱을 구현하던 중 다른 블랙핑크 팬 앱, 웹 들에 비해 퀄리티가 떨어진다고 생각해서 실제 앱 배포와 운영은 하지 않고 중단했습니다.
+									</p>
+								</ul>
+								<footer class="major">
+									<ul class="actions special">
+										<li><a href="https://yeonwoo97.tistory.com/340" class="button">Learn More</a></li>
+									</ul>
+								</footer>
+							</section>
+
+						<!-- 이더리움 자동매매 프로젝트 -->
+							<section id="ethereum" class="main special">
+								<header class="major">
+									<h2>가상화폐 서버리스 자동매매</h2>
+									<p>조코딩 유튜브 영상의 프로젝트를 서버리스로 업그레이드한 가상화폐 자동매매 프로젝트 입니다.</br>
+									여러 다른 회사들의 open api 에 관심을 가지고 찾아보던 중, 증권사나 거래소 api 를 활용해서 자동매매를 하는 것에 관심이 생겨 시작하게 됬습니다.</br>
+									처음에는 단순 목표값만을 설정한 파이썬 스크립트 하나만 돌아갔었지만, 이후 </p>
+								</header>
+								<footer class="major">
+									<ul class="actions special">
+										<li><a href="generic.html" class="button">Learn More</a></li>
+									</ul>
+								</footer>
+							</section>
+
+						<!-- 다마고치 웹게임 프로젝트 -->
+							<section id="tamagochi" class="main special">
+								<header class="major">
+									<h2>(미완)다마고치 웹게임</h2>
+									<p>웹에서 플레이할 수 있는 save-load 가능한 다마고치 웹게임</br>
+									프로젝트 진행중...</p>
+								</header>
+								<footer class="major">
+									<ul class="actions special">
+										<li><a href="" class="button">Learn More</a></li>
+									</ul>
+								</footer>
+							</section>
+
+						<!-- 작은 프로젝트들 -->
+							<section id="etc" class="main special">
+								<header class="major">
+									<h2>작은 프로젝트들</h2>
+									<p><a href="https://yeonwoo97.tistory.com/45">OSS 공개SW 개발자대회 예선탈락</a></br></p>
+									<p><a href="https://yeonwoo97.tistory.com/170">로스트아크 레이드연습용 웹게임-1</a></br></p>
+									<p><a href="https://yeonwoo97.tistory.com/171">로스트아크 레이드연습용 웹게임-2</a></br></p>
+									<p><a href="https://yeonwoo97.tistory.com/361">포트폴리오 웹사이트</a></br></p>
+								</header>
+								<footer class="major">
+									<ul class="actions special">
+										<li><a href="" class="button">Learn More</a></li>
+									</ul>
+								</footer>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<!--<section>
+							<h2>Aliquam sed mauris</h2>
+							<p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
+							<ul class="actions">
+								<li><a href="generic.html" class="button">Learn More</a></li>
+							</ul>
+						</section>-->
+						<section>
+							<h2>contact</h2>
+							<dl class="alt">
+								<dt>Address</dt>
+								<dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
+								<dt>Phone</dt>
+								<dd>(000) 000-0000 x 0000</dd>
+								<dt>Email</dt>
+								<dd><a href="#">sounddevice3@gmail.com</a></dd>
+							</dl>
+							<ul class="icons">
+								<li><a href="https://www.instagram.com/cyaninn_entj/" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
+								<li><a href="https://github.com/cyaninn-entj" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+								<li><a href="https://yeonwoo97.tistory.com/" class="icon brands fa-dribbble alt"><span class="label">Dribbble</span></a></li>
+							</ul>
+						</section>
+						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
