@@ -31,9 +31,10 @@
 						<ul>
 							<li><a href="#intro" class="active">자기소개</a></li>
 							<li><a href="#groom">구름 k8s 전문가 양성 과정</a></li>
-							<li><a href="#my-private-infra">CI/CD</a></li>
-							<li><a href="#ethereum">Cryptocurrency auto-trade</a></li>
-							<li><a href="#tamagochi">webgame-tamagochi</a></li>
+							<li><a href="#my-private-infra">팬 사이트</a></li>
+							<li><a href="#aws-certified">AWS Certified</a></li>
+							<li><a href="#ethereum">가상화폐 자동매매</a></li>
+							<li><a href="#gameAppWithChatGPT">gameAppWithChatGPT</a></li>
 							<li><a href="#etc">etc...</a></li>
 						</ul>
 					</nav>
@@ -48,11 +49,10 @@
 										<header class="major">
 											<h2>Hello World!</h2>
 										</header>
-										<p>18살때부터 적성검사 결과가 ENTJ인 저는 고등학교때부터
-											코딩에 관심을 가졌었습니다. 인덕대학교 정보통신공학과 학사를 졸업하면서
-											IT 전반에 대한 공부를 했었고, DevOps 를 지향해서 인프라 전반에 대한 공부를 했었습니다.
-											이후 경험을 쌓은 뒤 데이터쪽 석사 학위를 위해 공부하고 싶습니다.
-											스카이넷을 만들고싶거든요. AIOps 가 저만의 최종 목적입니다.
+										<p>저는 고등학교때부터 코딩에 관심을 가졌었습니다. 인덕대학교 정보통신공학과 학사를 졸업하면서
+											IT 전반에 대한 공부를 했었고, 3학년때부터 DevOps 문화를 지향해서 인프라 전반에 대한 관심을 가지고 관련된 공부를 더했습니다.
+											이후 실무 경험을 쌓은 뒤 데이터쪽 석사 학위를 위해 공부하고 싶습니다.
+											스카이넷을 만들고싶거든요. AIOps 가 저의 최종 목표입니다.
 										</p>
 										<ul class="actions">
 											<li><a href="introduction.html" class="button">Learn More</a></li>
@@ -86,7 +86,7 @@
 						<!-- 개인 인프라 (blackpink website project) -->
 							<section id="my-private-infra" class="main special">
 								<header class="major">
-									<h2>개인 환경 인프라 CI/CD</h2>
+									<h2>Blackpink fan website CI/CD</h2>
 								</header>
 								<ul class="features">
 									<div class="col-12-small"><span class="image fit"><img src="images/blackpink-website.png" alt="" /></span></div>
@@ -103,32 +103,62 @@
 									</ul>
 								</footer>
 							</section>
+						
+						<!-- 개인 인프라 (blackpink website project) -->
+							<section id="aws-certified" class="main special">
+								<header class="major">
+									<h2>AWS Certified Developer Associate</h2>
+								</header>
+								<ul class="features">
+									<div class="col-12-small"><span class="image fit"><img src="images/aws-certified-developer-associate.png" alt="" /></span></div>
+									<p>
+										대학교 2학년때 AWS 서비스들을 처음 접하고 나서 클라우드 인프라와 DevOps 공부의 이정표 역할을 해줄 위 자격증 공부를 시작했습니다.</br>
+										수많은 AWS 서비스를 공부하고 실습해볼 수 있어서 좋았는데, 특히 Serverless Section 은 상당히 흥미로웠습니다.</br>
+										22년 7월에 공부를 시작했지만 허리디스크 이슈와 국비지원 수강, 졸업준비 등으로 천천히 준비하게 되었고 23년 3월에 시험에 합격해서 자격증을 취득하게 되었습니다.
+									</p>
+								</ul>
+								<footer class="major">
+									<ul class="actions special">
+										<li><a href="https://www.credly.com/badges/7b42f0af-3b8e-448a-94ae-a324e268647f/public_url" class="button">Learn More</a></li>
+									</ul>
+								</footer>
+							</section>
 
 						<!-- 이더리움 자동매매 프로젝트 -->
 							<section id="ethereum" class="main special">
 								<header class="major">
 									<h2>가상화폐 서버리스 자동매매</h2>
-									<p>조코딩 유튜브 영상의 프로젝트를 서버리스로 업그레이드한 가상화폐 자동매매 프로젝트 입니다.</br>
-									여러 다른 회사들의 open api 에 관심을 가지고 찾아보던 중, 증권사나 거래소 api 를 활용해서 자동매매를 하는 것에 관심이 생겨 시작하게 됬습니다.</br>
-									처음에는 단순 목표값만을 설정한 파이썬 스크립트 하나만 돌아갔었지만, 이후 </p>
 								</header>
+								<ul class="features">
+									<div class="col-12-small"><span class="image fit"><img src="images/ethereum_autotrade.drawio.png" alt="" /></span></div>
+									<p>조코딩 유튜브 영상의 프로젝트를 서버리스로 업그레이드한 가상화폐 자동매매 프로젝트 입니다.</br>
+										여러 다른 회사들의 open api 에 관심을 가지고 찾아보던 중, 증권사나 거래소 api 를 활용해서 자동매매를 하는 것에 관심이 생겨 시작하게 됬습니다.</br>
+										처음에는 단순 목표값만을 설정한 파이썬 스크립트 하나만 EC2 에서 돌아갔었지만, </br>
+										이후 페이스북의 prophet 라이브러리를 사용해 종가를 예측해주는 워크로드를 위해 Serverless 로 전체 로직을 마이그레이션 했습니다.</br>
+										현재는 리소스들을 개별 배포+운영 하고있지만 테라폼이나 Cloudformation 혹은 AWS-CDK python 으로 관리하는 로직을 추가할 예정입니다.
+									</p>
+								</ul>
 								<footer class="major">
 									<ul class="actions special">
-										<li><a href="generic.html" class="button">Learn More</a></li>
+										<li><a href="" class="button">Learn More</a></li>
 									</ul>
 								</footer>
 							</section>
 
-						<!-- 다마고치 웹게임 프로젝트 -->
-							<section id="tamagochi" class="main special">
+						<!-- gameAppWithChatGPT 프로젝트 -->
+							<section id="gameAppWithChatGPT" class="main special">
 								<header class="major">
-									<h2>(미완)다마고치 웹게임</h2>
-									<p>웹에서 플레이할 수 있는 save-load 가능한 다마고치 웹게임</br>
-									프로젝트 진행중...</p>
+									<h2>(미완)gameAppWithChatGPT</h2>
 								</header>
+								<ul class="features">
+									<p>마켓에 출시할 인디게임을 chatGPT 의 도움을 받아 개발해보려고 합니다. </br>
+									 게임에 사용될 IP 또한 생성AI 를 통해 제작해볼 예정이고 websocket API 혹은 Data Stream 으로 실시간 반영이 가능한 인디게임을 만드는게 목표입니다.</br>
+									 LOL 이라는 게임이 워크래프트의 유즈맵(Use map settings)에서 유래한 것 처럼 스타크래프트의 유즈맵을 app 으로 만들어보는 식으로 제작해볼 예정입니다.
+									</p>
+								</ul>
 								<footer class="major">
 									<ul class="actions special">
-										<li><a href="" class="button">Learn More</a></li>
+										<!--<li><a href="" class="button">Learn More</a></li>-->
 									</ul>
 								</footer>
 							</section>
@@ -137,7 +167,7 @@
 							<section id="etc" class="main special">
 								<header class="major">
 									<h2>작은 프로젝트들</h2>
-									<p><a href="https://yeonwoo97.tistory.com/45">OSS 공개SW 개발자대회 예선탈락</a></br></p>
+									<p><a href="https://yeonwoo97.tistory.com/45">OSS 공개SW 개발자대회 예선참가</a></br></p>
 									<p><a href="https://yeonwoo97.tistory.com/170">로스트아크 레이드연습용 웹게임-1</a></br></p>
 									<p><a href="https://yeonwoo97.tistory.com/171">로스트아크 레이드연습용 웹게임-2</a></br></p>
 									<p><a href="https://yeonwoo97.tistory.com/361">포트폴리오 웹사이트</a></br></p>
